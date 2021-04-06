@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #a465f6 0%, #fd85cf 100%);
+    background-image: linear-gradient(180deg, #a465f6 30%, #fd85cf 80%);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -30,14 +30,14 @@ form input, form button {
 }
 
 form button {
-    color: #ff6f47;
+    color: #fd51bb;
     background: #f7fffe;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #ff6f47;
+    background: #fd51bb;
     color: white;
 }
 
@@ -72,7 +72,7 @@ form button:hover {
 }
 
 .trash-btn, .complete-btn {
-    background: #ff6f47;
+    background: #fd51bb;
     color: white;
     border: none;
     padding: 1rem;
@@ -122,7 +122,7 @@ select {
 }
 
 select {
-    color: #ff6f47;
+    color: #fd51bb;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
     width: 12rem;
@@ -135,7 +135,7 @@ select {
     top: 0;
     right: 0;
     padding: 1rem;
-    background: #ff6f47;
+    background: #fd51bb;
     cursor: pointer;
     pointer-events: none;
 }
